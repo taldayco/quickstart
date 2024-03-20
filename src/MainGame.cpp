@@ -17,7 +17,7 @@ void MainGame::initSystems() {
   // initialize game engine
   rogue_engine::init();
   // create SDL window
-  _window.create("LearnDelve", _screenWidth, _screenHeight, 0);
+  _window.create("quickstart", _screenWidth, _screenHeight, 0);
 };
 
 void MainGame::initShaders() {
